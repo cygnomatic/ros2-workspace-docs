@@ -20,6 +20,19 @@ export default defineConfig({
         text: "开发指南",
         items: [{ text: "结构", link: "/develop/struct" }],
       },
+      {
+        text: "参考",
+        items: [
+          {
+            text: "借助 Visual Studio Code 将 Docker 容器用作开发环境",
+            link: "https://learn.microsoft.com/zh-cn/training/modules/use-docker-container-dev-env-vs-code/",
+          },
+          {
+            text: "Developing inside a Container",
+            link: "https://code.visualstudio.com/docs/devcontainers/containers",
+          },
+        ],
+      },
     ],
 
     socialLinks: [

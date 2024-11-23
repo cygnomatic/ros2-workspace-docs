@@ -15,10 +15,13 @@ hero:
       link: https://github.com/cygnomatic/ros2-workspace
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 📦
+    title: 开箱即用
+    details: 基于 Visual Studio Code 开发容器的Ros2开发环境，无需繁杂配置过程
+  - icon: 🚀
+    title: 一键部署
+    details: 部署环境即开发环境，一键部署至任意MiniPC
+  - icon: 🎨
+    title: 配置简洁
+    details: 只需简单添加配置，即可快速拉取所需依赖
 ---
