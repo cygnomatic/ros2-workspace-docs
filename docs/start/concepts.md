@@ -1,85 +1,9 @@
-# Markdown Extension Examples
+# Workspace 概念
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+Workspace 是啥？能吃吗？
 
-## Syntax Highlighting
+简单来说就是你可以使用 vscode 打开一个 docker 容器，这个容器的开发环境已经配好了。
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+vscode 可以打开这个容器并自动把你的项目目录映射到容器内，这样你就可以无需在本地安装任何开发环境，在容器里进行开发。
 
-**Input**
-
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
-
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+同时我们可以编写一些特定的配置，使开发环境与部署环境一致，这样就可以同步到 MiniPC 上运行。
